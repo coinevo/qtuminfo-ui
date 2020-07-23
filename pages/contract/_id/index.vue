@@ -6,7 +6,7 @@
         <td>时间</td>
         <td>Token</td>
         <td>交易类型</td>
-        <td>手续费(QTUM)</td>
+        <td>手续费(EVO)</td>
         <td>确认数</td>
       </tr>
     </thead>

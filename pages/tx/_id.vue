@@ -26,15 +26,15 @@
           <ul>
             <li>
               <div class="item-title">输入</div>
-              <div class="item-info">{{inputsValue | qtum(7)}} QTUM</div>
+              <div class="item-info">{{inputsValue | qtum(7)}} EVO</div>
             </li>
             <li>
               <div class="item-title">输出</div>
-              <div class="item-info">{{outputsValue | qtum(7)}} QTUM</div>
+              <div class="item-info">{{outputsValue | qtum(7)}} EVO</div>
             </li>
             <li>
               <div class="item-title">矿工费</div>
-              <div class="item-info">{{fees | qtum(7)}} QTUM</div>
+              <div class="item-info">{{fees | qtum(7)}} EVO</div>
             </li>
           </ul>
         </div>
@@ -46,11 +46,11 @@
         <div class="deal-detail-info">
           <div class="deal-detail-list">
             <div class="list-send">
-              <div>输入 ({{inputs.length}}) {{inputsValue|qtum(7)}} QTUM</div>
+              <div>输入 ({{inputs.length}}) {{inputsValue|qtum(7)}} EVO</div>
               <ul>
                 <li v-for="input in inputs">
                   <span><nuxt-link :to="{name: 'address-id', params: {id: input.address}}">{{input.address}}</nuxt-link></span>
-                  <span>{{input.value | qtum(3)}}QTUM</span>
+                  <span>{{input.value | qtum(3)}}EVO</span>
                 </li>
               </ul>
             </div>
@@ -60,7 +60,7 @@
               <ul>
                 <li v-for="output in outputs">
                   <span><nuxt-link :to="{name: 'address-id', params: {id: output.address}}">{{output.address}}</nuxt-link> </span>
-                  <span>{{output.value | qtum(3)}}QTUM</span>
+                  <span>{{output.value | qtum(3)}}EVO</span>
                 </li>
               </ul>
             </div>

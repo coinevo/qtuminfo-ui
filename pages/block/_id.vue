@@ -75,8 +75,8 @@
               <td>
                 <FromNow :timestamp="transaction.timestamp" />
               </td>
-              <td>{{transaction.fees | qtum(3)}}QTUM</td>
-              <td>QTUM类型</td>
+              <td>{{transaction.fees | qtum(3)}}EVO</td>
+              <td>EVO类型</td>
               <td>{{transaction.confirmations}}</td>
             </tr>
           </tbody>

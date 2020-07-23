@@ -2,7 +2,7 @@
   <div class="container">
     <div class="notification">
       <i></i>
-      <p>2019 QTUM 黑客松大赛全球征集令开始报名啦</p>
+      <p>2020 EVO 黑客松大赛全球征集令开始报名啦</p>
     </div>
 
     <Panel title="全网概览" width="100%" height="355px" icon="icon-global" noMargin="true">
@@ -20,7 +20,7 @@
           </div>
         </div>
         <div class="info">
-          <span class="title">QTUM过去14天交易数</span>
+          <span class="title">EVO过去14天交易数</span>
           <div class="frame">
             <div class="chart" ref="daily-transactions"></div>
           </div>
@@ -51,7 +51,7 @@
                 >{{block.miner | format(8,9)}}</nuxt-link>
               </td>
               <td>{{block.transactionCount}}</td>
-              <td>{{block.reward | qtum(4) }}QTUM</td>
+              <td>{{block.reward | qtum(4) }}EVO</td>
               <td>
                 <FromNow :timestamp="block.timestamp" />
               </td>
@@ -75,7 +75,7 @@
                   :to="{name: 'tx-id', params: {id: transaction.id}}"
                 >{{transaction.id | format(10,15)}}</nuxt-link>
               </td>
-              <td>{{ transaction.outputValue | qtum(4) }} QTUM</td>
+              <td>{{ transaction.outputValue | qtum(4) }} EVO</td>
               <td>
                 <FromNow :timestamp="transaction.timestamp" />
               </td>
@@ -97,7 +97,7 @@ export default {
   components: { Panel },
   head() {
     return {
-      title: "qtum.info",
+      title: "EVO",
       titleTemplate: null
     };
   },

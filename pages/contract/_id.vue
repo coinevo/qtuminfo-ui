@@ -37,11 +37,11 @@
             </li>
             <li>
               <div class="item-title">收入合计</div>
-              <div class="item-info">{{ totalReceived | qtum }} QTUM</div>
+              <div class="item-info">{{ totalReceived | qtum }} EVO</div>
             </li>
             <li>
               <div class="item-title">支出合计</div>
-              <div class="item-info">{{ totalSent | qtum }} QTUM</div>
+              <div class="item-info">{{ totalSent | qtum }} EVO</div>
             </li>
           </ul>
         </div>

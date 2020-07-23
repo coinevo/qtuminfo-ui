@@ -22,7 +22,7 @@
             </td>
             <td>{{outputValue | qtum(4)}}</td>
             <td>{{fees | qtum(4)}}</td>
-            <td>QTUM类型</td>
+            <td>EVO类型</td>
             <td>{{confirmations}}</td>
           </tr>
         </tbody>

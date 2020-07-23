@@ -19,9 +19,9 @@
           <td>
             <FromNow :timestamp="transaction.timestamp" />
           </td>
-          <td>{{transaction.outputValue - transaction.inputValue}} QTUM</td>
-          <td>{{transaction.fees |qtum(3)}} QTUM</td>
-          <td>QTUM转账</td>
+          <td>{{transaction.outputValue - transaction.inputValue}} EVO</td>
+          <td>{{transaction.fees |qtum(3)}} EVO</td>
+          <td>EVO转账</td>
           <td>{{transaction.confirmations}}个确认</td>
         </tr>
       </tbody>

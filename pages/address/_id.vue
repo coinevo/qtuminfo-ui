@@ -5,12 +5,12 @@
         <div class="address-info-left list">
           <ul class="border">
             <li>
-              <div class="item-title">qtum余额</div>
-              <div class="item-info">{{ balance | qtum }} QTUM</div>
+              <div class="item-title">EVO余额</div>
+              <div class="item-info">{{ balance | qtum }} EVO</div>
             </li>
             <li >
               <div class="item-title">挖矿锁定金额</div>
-              <div class="item-info">{{ staking | qtum }} QTUM</div>
+              <div class="item-info">{{ staking | qtum }} EVO</div>
             </li>
             <li>
               <div class="item-title">Token 余额</div>
@@ -34,11 +34,11 @@
             </li>
             <li>
               <div class="item-title">收入合计</div>
-              <div class="item-info">{{ totalReceived | qtum }} QTUM</div>
+              <div class="item-info">{{ totalReceived | qtum }} EVO</div>
             </li>
             <li>
               <div class="item-title">支出合计</div>
-              <div class="item-info">{{ totalSent | qtum }} QTUM</div>
+              <div class="item-info">{{ totalSent | qtum }} EVO</div>
             </li>
           </ul>
         </div>

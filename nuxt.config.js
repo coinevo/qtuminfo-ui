@@ -4,7 +4,7 @@ export default {
   mode: 'universal',
   loading: "@/components/loading",
   head: {
-    titleTemplate: '%s - qtum.info',
+    titleTemplate: '%s - evo',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }
@@ -20,10 +20,10 @@ export default {
       config.plugins.push(new webpack.DefinePlugin({
         'process.env.qtuminfoAPIBase': JSON.stringify(process.env.QTUMINFO_API_BASE
           || process.env[isServer ? 'QTUMINFO_API_BASE_SERVER' : 'QTUMINFO_API_BASE_CLIENT']
-          || 'https://qtum.info/api/'),
+          || 'https://ex.coinevo.tech/api/'),
         'process.env.qtuminfoWSBase': JSON.stringify(process.env.QTUMINFO_WS_BASE
           || process.env.QTUMINFO_API_BASE_WS
-          || '//qtum.info/'),
+          || '//ex.coinevo.tech/'),
         'process.env.network': JSON.stringify(process.env.QTUM_NETWORK || 'mainnet')
       }))
     },

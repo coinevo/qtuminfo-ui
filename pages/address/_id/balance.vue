@@ -14,7 +14,7 @@
             <nuxt-link :to="{name: 'tx-id', params: {id: id}}">{{id | format(8,13)}}</nuxt-link>
           </td>
           <td>{{ timestamp | timestamp }}</td>
-          <td>{{ balance | qtum(8) }} QTUM</td>
+          <td>{{ balance | qtum(8) }} EVO</td>
         </tr>
       </tbody>
     </table>
